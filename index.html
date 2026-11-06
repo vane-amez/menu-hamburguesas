@@ -1,11 +1,189 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menú hamburguesas | Inicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-    
+
+<body id="base" class="bg-light">
+    <section>
+        <div class="container">
+            <div class="row g-3 mt-3">
+                <div class="col-6">
+                    <label class="d-flex flex-column gap-2">
+                        <select class="form-select">
+                            <option value="" selected disabled>Seleccionar idioma</option>
+                            <option value="espanol">Español</option>
+                            <option value="ingles">Ingles</option>
+                        </select>
+                    </label>
+                </div>
+
+                <div class="col-6">
+                    <label class="d-flex flex-column gap-2">
+                        <select id="cambiocolor" class="form-select">
+                            <option value="" selected disabled>Seleccionar color</option>
+                            <option value="oscuro">Oscuro</option>
+                            <option value="claro">Claro</option>
+                        </select>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-3 mt-5 mb-5">
+                    <div class="card h-100">
+                        <img src="./img/hamburguesa-1.webp" class="card-img-top" alt="Menú hamburguesa BBQ Crunch">
+                        <div class="card-body">
+                            <p><strong>$ 8.900</strong></p>
+                            <p><strong>BBQ Crunch</strong></p>
+                            <p>1 Sándwich BBQ Crunch (1 filete de pollo apanado)</p>
+                        </div>
+                        <button class="btn btn-danger w-100 mb-3" type="button">Comprar</button>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mt-5 mb-5">
+                    <div class="card h-100">
+                        <img src="./img/hamburguesa-2.webp" class="card-img-top"
+                            alt="Menú hamburguesa Kentucky Sandwich">
+                        <div class="card-body">
+                            <p><strong>$ 15.900</strong></p>
+                            <p><strong>Kentucky Sandwich</strong></p>
+                            <p> 1 Kentucky hamburguesa / Sandwich 1 filete de pechuga de pollo apanado,
+                                pepinillos...</p>
+                        </div>
+                        <button class="btn btn-danger w-100 mb-3" type="button">Comprar</button>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mt-5 mb-5">
+                    <div class="card h-100">
+                        <img src="./img/hamburguesa-3.webp" class="card-img-top"
+                            alt="Menú hamburguesa Combo BBQ Crunch">
+                        <div class="card-body">
+                            <p><strong>$ 15.900</strong></p>
+                            <p><strong>Combo BBQ Crunch</strong></p>
+                            <p>1 Sándwich BBQ Crunch (1 filete de pollo apanado) + 1 papa pequeña + 1
+                                Gaseosa
+                                PET...</p>
+                        </div>
+                        <button class="btn btn-danger w-100 mb-3" type="button">Comprar</button>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mt-5 mb-5">
+                    <div class="card h-100">
+                        <img src="./img/hamburguesa-4.webp" class="card-img-top"
+                            alt="Menú hamburguesa Kentucky Coronel Sandwich">
+                        <div class="card-body">
+                            <p><strong>$ 16.900</strong></p>
+                            <p><strong>Kentucky Coronel Sandwich</strong></p>
+                            <p>1 Kentucky Coronel hamburguesa / Sandwich (1 Filete de pechuga de pollo
+                                apanado,
+                                Ensalada...</p>
+                        </div>
+                        <button class="btn btn-danger w-100 mb-3" type="button">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-3 mt-5 mb-5">
+                    <div class="card h-100">
+                        <img src="./img/hamburguesa-5.webp" class="card-img-top" alt="Combo Kentucky Sandwich">
+                        <div class="card-body">
+                            <p><strong>$ 21.900</strong></p>
+                            <p><strong>Combo Kentucky Sandwich</strong></p>
+                            <p>1 Kentucky hamburguesa / Sandwich (1 Filete de pechuga de pollo apanado,
+                                pepinillos...</p>
+                        </div>
+                        <button class="btn btn-danger w-100 mb-3" type="button">Comprar</button>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mt-5 mb-5">
+                    <div class="card h-100">
+                        <img src="./img/hamburguesa-6.webp" class="card-img-top"
+                            alt="Menú hamburguesa Combo Kentucky Coronel Sandwich">
+                        <div class="card-body">
+                            <p><strong>$ 22.900</strong></p>
+                            <p><strong>Combo Kentucky Coronel Sandwich</strong></p>
+                            <p>1 Kentucky Coronel hamburguesa / Sandwich (1 Filete de pollo apanado,
+                                Ensalada...).
+                            </p>
+                        </div>
+                        <button class="btn btn-danger w-100 mb-3" type="button">Comprar</button>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mt-5 mb-5">
+                    <div class="card h-100">
+                        <img src="./img/hamburguesa-7.webp" class="card-img-top"
+                            alt="Menú hamburguesa Sandwich Crispy BBQ">
+                        <div class="card-body">
+                            <p><strong>$ 23.900</strong></p>
+                            <p><strong>Sandwich Crispy BBQ</strong></p>
+                            <p>1 Sándwich Crispy BBQ (1 Filete de pechuga extra grande, triple empanizado,
+                                cebolla
+                                crisp...</p>
+                        </div>
+                        <button class="btn btn-danger w-100 mb-3" type="button">Comprar</button>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mt-5 mb-5">
+                    <div class="card h-100">
+                        <img src="./img/hamburguesa-8.webp" class="card-img-top"
+                            alt="Menú hamburguesa Combo Sandwich Crispy BBQ">
+                        <div class="card-body">
+                            <p><strong>$ 29.900</strong></p>
+                            <p><strong>Combo Sandwich Crispy BBQ</strong></p>
+                            <p>1 Sándwich Crispy BBQ (1 Filete de pechuga extragrande, triple empanizada,
+                                cebolla crisp...</p>
+                        </div>
+                        <button class="btn btn-danger w-100 mb-3" type="button">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-danger text-white text-justify">
+        <div class="row">
+            <div class="col-4 mt-4 mb-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quisquam, iste delectus facere
+                explicabo
+                officiis quasi itaque voluptatibus autem aliquam ipsa aut numquam officia esse eligendi perferendis
+                adipisci vero corrupti.
+            </div>
+            <div class="col-4 mt-4 mb-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae maxime velit quidem hic
+                repellendus
+                tempore rem odit nisi animi dolor, facilis, iure laudantium fugiat nulla dignissimos, suscipit
+                blanditiis placeat ab!
+            </div>
+            <div class="col-4 mt-4 mb-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro sunt quisquam omnis deleniti numquam,
+                dolores hic veritatis nemo adipisci, quos officia necessitatibus optio officiis consequuntur enim
+                eius
+                quo inventore aspernatur.
+            </div>
+        </div>
+    </footer>
+
+    <script src="./JS.js"></script>
 </body>
+
 </html>
